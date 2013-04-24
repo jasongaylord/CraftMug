@@ -1,0 +1,4 @@
+C:\My Files\Personal\Projects - Applications\CraftMug\CraftMug.Phone\CraftMug.Core\Bin\Debug\CraftMug.Core.dll
+C:\My Files\Personal\Projects - Applications\CraftMug\CraftMug.Phone\CraftMug.Core\Bin\Debug\CraftMug.Core.pdb
+C:\My Files\Personal\Projects - Applications\CraftMug\CraftMug.Phone\CraftMug.Core\obj\Debug\CraftMug.Core.dll
+C:\My Files\Personal\Projects - Applications\CraftMug\CraftMug.Phone\CraftMug.Core\obj\Debug\CraftMug.Core.pdb

@@ -1,0 +1,52 @@
+﻿<Application 
+    x:Class="CraftMug.Phone.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"       
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:local="clr-namespace:CraftMug.Phone.Controls">
+    
+    <!--Application Resources-->
+    <Application.Resources>
+        <ResourceDictionary>
+            <local:BackgroundConverter x:Key="BackgroundConverter" />
+            <local:LighterBackgroundConverter x:Key="LighterBackgroundConverter" />
+            <local:FirstBeerLocationImageConverter x:Key="FirstBeerLocationImageConverter" />
+            <local:ItemNameByLocationIdConverter x:Key="ItemNameByLocationIdConverter" />
+
+            <Color x:Key="BrewPubs">#632f00</Color>
+            <Color x:Key="BeerBars">#ae113e</Color>
+            <Color x:Key="Breweries">#f4b300</Color>
+            <Color x:Key="Distributors">#78ba00</Color>
+            <Color x:Key="HomebrewStores">#e66b1b</Color>
+
+            <SolidColorBrush x:Key="Brewpub" Color="{StaticResource BrewPubs}" />
+            <SolidColorBrush x:Key="Beer Bar" Color="{StaticResource BeerBars}" />
+            <SolidColorBrush x:Key="Brewery" Color="{StaticResource Breweries}" />
+            <SolidColorBrush x:Key="Beer Store" Color="{StaticResource Distributors}" />
+            <SolidColorBrush x:Key="Homebrew" Color="{StaticResource HomebrewStores}" />
+
+            <SolidColorBrush x:Key="Brewpub Lighter" Color="{StaticResource BrewPubs}" Opacity="0.7" />
+            <SolidColorBrush x:Key="Beer Bar Lighter" Color="{StaticResource BeerBars}" Opacity="0.7" />
+            <SolidColorBrush x:Key="Brewery Lighter" Color="{StaticResource Breweries}" Opacity="0.7" />
+            <SolidColorBrush x:Key="Beer Store Lighter" Color="{StaticResource Distributors}" Opacity="0.7" />
+            <SolidColorBrush x:Key="Homebrew Lighter" Color="{StaticResource HomebrewStores}" Opacity="0.7" />
+            
+            <SolidColorBrush x:Key="StandardBrush" Color="Gray" />
+            <SolidColorBrush x:Key="StandardBrush Lighter" Color="Gray" Opacity="0.7" />
+
+            <!--<Style x:Key="Brewpub" TargetType="StackPanel">
+                <Setter Property="Background" Value="{StaticResource Brewpub}" />
+            </Style>-->
+
+        </ResourceDictionary>
+    </Application.Resources>
+
+    <Application.ApplicationLifetimeObjects>
+        <!--Required object that handles lifetime events for the application-->
+        <shell:PhoneApplicationService 
+            Launching="Application_Launching" Closing="Application_Closing" 
+            Activated="Application_Activated" Deactivated="Application_Deactivated"/>
+    </Application.ApplicationLifetimeObjects>
+
+</Application>

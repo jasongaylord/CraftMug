@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2009/deployment" AppPlatformVersion="7.1">
+  <App xmlns="" ProductID="{351b8669-698b-42f7-b788-487c0aee47ac}" Title="craftmug" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Jason N. Gaylord" Description="An application that emphasizes craft beer." Publisher="JasonGaylord.com" BitsPerPixel="32">
+    <IconPath IsRelative="true" IsResource="false">CraftMug-62.png</IconPath>
+    <Capabilities>
+      <Capability Name="ID_CAP_IDENTITY_USER" />
+      <Capability Name="ID_CAP_LOCATION" />
+      <Capability Name="ID_CAP_NETWORKING" />
+      <Capability Name="ID_CAP_PHONEDIALER" />
+      <Capability Name="ID_CAP_PUSH_NOTIFICATION" />
+      <Capability Name="ID_CAP_ISV_CAMERA" />
+      <Capability Name="ID_CAP_CONTACTS" />
+    </Capabilities>
+    <Tasks>
+      <DefaultTask Name="_default" NavigationPage="MainPage.xaml" />
+    </Tasks>
+    <Tokens>
+      <PrimaryToken TokenID="CraftMug.PhoneToken" TaskName="_default">
+        <TemplateType5>
+          <BackgroundImageURI IsRelative="true" IsResource="false">CraftMug-173.png</BackgroundImageURI>
+          <Count>0</Count>
+          <Title>
+          </Title>
+        </TemplateType5>
+      </PrimaryToken>
+    </Tokens>
+  </App>
+</Deployment>
+<!-- WPSDK Version 7.1.8773.0 -->
