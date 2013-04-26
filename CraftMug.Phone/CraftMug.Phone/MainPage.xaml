@@ -74,7 +74,8 @@
                                                 <ColumnDefinition Width="190" />
                                             </Grid.ColumnDefinitions>
                                             <Grid Grid.Row="0" Grid.Column="0">-->
-                                                <TextBlock FontSize="24" Margin="5" Width="190" TextWrapping="Wrap" Text="{Binding name}"/>
+                                        <TextBlock x:Name="hiddenId" Visibility="Collapsed" Text="{Binding id}" />
+                                        <TextBlock FontSize="24" Margin="5" Width="190" TextWrapping="Wrap" Text="{Binding name}"/>
                                                 <TextBlock FontSize="16" Margin="5" Text="{Binding status}"/>
                                                 <Image Margin="10,0,0,0" Source="Images/question.png" Stretch="None" Visibility="Collapsed"/>
                                             <!--</Grid>

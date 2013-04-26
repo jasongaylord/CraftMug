@@ -91,6 +91,7 @@ namespace CraftMug.Phone
 
         private void beer_LocationsRetrieved(object sender, EventArgs e)
         {
+            PhoneApplicationService.Current.State["BeerLocations"] = beer.LocationsByCity;
             var locations = beer.LocationsByCity.location;
 
             Deployment.Current.Dispatcher.BeginInvoke(() =>
@@ -106,7 +107,9 @@ namespace CraftMug.Phone
 
         private void OpenLocationDetails(object sender, System.Windows.Input.GestureEventArgs e)
         {
-            NavigationService.Navigate(new Uri("/LocationDetails.xaml?id=", UriKind.RelativeOrAbsolute));
+            var sp = sender as StackPanel;
+            var hiddenValue = sp.Children[0] as TextBlock;
+            NavigationService.Navigate(new Uri("/LocationDetails.xaml?id=" + hiddenValue.Text, UriKind.RelativeOrAbsolute));
         }
     }
 }

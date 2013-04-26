@@ -1,9 +1,9 @@
-﻿<xapCache source="C:\My Files\Personal\Projects - Applications\CraftMug\CraftMug.Phone\CraftMug.Phone\Bin\Debug\CraftMug.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="04/23/2013 5:08:41 PM">
+﻿<xapCache source="C:\My Files\Personal\Projects - Applications\CraftMug\CraftMug.Phone\CraftMug.Phone\Bin\Debug\CraftMug.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="04/25/2013 11:18:57 PM">
   <file source="C:\My Files\Personal\Projects - Applications\CraftMug\CraftMug.Phone\CraftMug.Phone\Bin\Debug\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="04/12/2013 12:56:06 AM" />
   <file source="C:\My Files\Personal\Projects - Applications\CraftMug\CraftMug.Phone\CraftMug.Phone\CraftMug-173.png" archivePath="CraftMug-173.png" lastWriteTime="04/11/2013 11:18:33 PM" />
   <file source="C:\My Files\Personal\Projects - Applications\CraftMug\CraftMug.Phone\CraftMug.Phone\CraftMug-62.png" archivePath="CraftMug-62.png" lastWriteTime="04/12/2013 4:26:28 PM" />
-  <file source="C:\My Files\Personal\Projects - Applications\CraftMug\CraftMug.Phone\CraftMug.Phone\obj\Debug\CraftMug.Phone.dll" archivePath="CraftMug.Phone.dll" lastWriteTime="04/23/2013 5:08:40 PM" />
-  <file source="C:\My Files\Personal\Projects - Applications\CraftMug\CraftMug.Phone\CraftMug.Core\Bin\Debug\CraftMug.Core.dll" archivePath="CraftMug.Core.dll" lastWriteTime="04/23/2013 4:21:54 PM" />
+  <file source="C:\My Files\Personal\Projects - Applications\CraftMug\CraftMug.Phone\CraftMug.Phone\obj\Debug\CraftMug.Phone.dll" archivePath="CraftMug.Phone.dll" lastWriteTime="04/25/2013 11:18:56 PM" />
+  <file source="C:\My Files\Personal\Projects - Applications\CraftMug\CraftMug.Phone\CraftMug.Core\Bin\Debug\CraftMug.Core.dll" archivePath="CraftMug.Core.dll" lastWriteTime="04/25/2013 10:04:29 PM" />
   <file source="C:\Program Files (x86)\Microsoft SDKs\Advertising for Phone\Libraries\v7.1\Microsoft.Advertising.Mobile.dll" archivePath="Microsoft.Advertising.Mobile.dll" lastWriteTime="07/20/2012 7:57:18 AM" />
   <file source="C:\Program Files (x86)\Microsoft SDKs\Advertising for Phone\Libraries\v7.1\microsoft.advertising.mobile.ui.dll" archivePath="microsoft.advertising.mobile.ui.dll" lastWriteTime="07/20/2012 7:57:18 AM" />
   <file source="C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v7.1\Libraries\Silverlight\Microsoft.Phone.Controls.dll" archivePath="Microsoft.Phone.Controls.dll" lastWriteTime="07/06/2012 1:40:16 AM" />
@@ -17,5 +17,5 @@
   <file source="C:\My Files\Personal\Projects - Applications\CraftMug\CraftMug.Phone\CraftMug.Phone\Toolkit.Content\ApplicationBar.Check.png" archivePath="Toolkit.Content\ApplicationBar.Check.png" lastWriteTime="04/15/2013 11:42:54 PM" />
   <file source="C:\My Files\Personal\Projects - Applications\CraftMug\CraftMug.Phone\CraftMug.Phone\Toolkit.Content\ApplicationBar.Delete.png" archivePath="Toolkit.Content\ApplicationBar.Delete.png" lastWriteTime="04/15/2013 11:42:54 PM" />
   <file source="C:\My Files\Personal\Projects - Applications\CraftMug\CraftMug.Phone\CraftMug.Phone\Toolkit.Content\ApplicationBar.Select.png" archivePath="Toolkit.Content\ApplicationBar.Select.png" lastWriteTime="04/15/2013 11:42:54 PM" />
-  <file source="C:\My Files\Personal\Projects - Applications\CraftMug\CraftMug.Phone\CraftMug.Phone\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="04/23/2013 4:21:55 PM" />
+  <file source="C:\My Files\Personal\Projects - Applications\CraftMug\CraftMug.Phone\CraftMug.Phone\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="04/25/2013 10:59:17 PM" />
 </xapCache>

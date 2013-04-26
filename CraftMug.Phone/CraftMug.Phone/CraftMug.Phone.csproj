@@ -79,6 +79,9 @@
     <Compile Include="Controls\ItemNameByLocationIdConverter.cs" />
     <Compile Include="Controls\FirstBeerLocationImageConverter.cs" />
     <Compile Include="Controls\DataTemplateSelector.cs" />
+    <Compile Include="LocationDetails.xaml.cs">
+      <DependentUpon>LocationDetails.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -92,6 +95,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </ApplicationDefinition>
+    <Page Include="LocationDetails.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
